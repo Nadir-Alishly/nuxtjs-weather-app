@@ -1,42 +1,16 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Siple Weather App created by using NuxtJS framework
 
 ## Setup
 
-Make sure to install the dependencies:
+First of all npm and nuxtjs dependencies are required to run this application. Use links below for installation instructions:
 
-```bash
-# yarn
-yarn install
+https://docs.npmjs.com/cli/v8/commands/npm-install
 
-# npm
-npm install
+https://nuxtjs.org/docs/get-started/installation/
 
-# pnpm
-pnpm install
-```
+Addtional dependencies used in app are:
 
-## Development Server
+1. @pinia/nuxt `npm i @pinia/nuxt`
+2. nuxt-icon `npm install --save-dev nuxt-icon`
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+After installing all dependencies to your machine, app is ready to be run. Use `npm run dev` to run the app.
