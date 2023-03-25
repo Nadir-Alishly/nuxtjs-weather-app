@@ -13,4 +13,4 @@ Addtional dependencies used in app are:
 1. @pinia/nuxt `npm i @pinia/nuxt`
 2. nuxt-icon `npm install --save-dev nuxt-icon`
 
-After installing all dependencies to your machine app is ready to be run. Use `npm run dev` to run the app.
+After installing all dependencies to your machine, app is ready to be run. Use `npm run dev` to run the app.
