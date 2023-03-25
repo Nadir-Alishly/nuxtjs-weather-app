@@ -4,6 +4,14 @@ export default defineNuxtConfig({
 		'nuxt-icon',
 		'@pinia/nuxt',
 	],
+	app: {
+		head: {
+			title: "Weather App",
+			link: [
+				{ rel: 'icon', type: 'image/x-icon', href: '/_nuxt/assets/favicon.png' }    
+			]
+		}
+	},
 	imports: {
 		dirs: ['stores'],
 	  },
